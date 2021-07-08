@@ -3,7 +3,7 @@
 # ###########################################
 #
 #
-# Kernel Build Script by Ludwig Kreß 2020
+# Kernel Build Script by Ludwig Kreß 2021
 # u can try it for ur self but fork it on git
 #
 #
@@ -26,9 +26,9 @@ export PATH=/usr/bin/:$PATH
 # Output Folder 
 export VOUT=out
 # device config file
-export DEFCONF=aml_defconfig
+export DEFCONF=UR_DEVICE_CONFIG
 # kernel Option Config
-export DCONF=u_218_v3.4config
+export DCONF=UR_KERNEL_CONFIG
 export WPWD=${pwd}
 compilers="crossbuild-essential-arm64 crossbuild-essential-armhf crossbuild-essential-armel gcc-arm-none-eabi"
 libpython2_dev="libexpat1-dev libpython2.7 libpython2.7-dev libpython2.7-minimal libpython2.7-stdlib"
